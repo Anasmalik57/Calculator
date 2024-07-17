@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+* {
+  margin: 0;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  color: #fff;
+  font: 18px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#button {
+  border: 2px solid black;
+  padding: 17px;
+  font-size: 18px;
+  width: 28px;
+  margin: -1px 5px;
+  border-radius: 50px;
+  line-height: 100%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  cursor: pointer;
+  background-color: #2f2f2f;
+  /* color: antiquewhite; */
+  /* font-weight: bold; */
+}
+.calculator {
+  border: 3px solid black;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  border-radius: 10px;
+  background-color: #000000;
+}
+.calculator {
+  background: #0000;
+  box-shadow: 0 12px 32px 0 #151b6f5e;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+#input {
+  text-align: center;
+  width: calc(100% - 10px);
+  padding: 10px 10px 10px 0px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  /* border-radius: 5px; */
+  background-color: transparent;
+  color: #fff;
+  border-bottom: 2px solid black;
+}
+.container {
+  background-color: #a2d2ff;
+  border: 2px solid black;
+  text-align: center;
+  /* width: calc(100vw - 20px); */
+  height: calc(100vh - 3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  background: hsla(197, 100%, 63%, 1);
+
+  background: linear-gradient(30deg, #42caff 0%, #e81aff 100%);
+
+  background: -moz-linear-gradient(30deg, #42caff 0%, #e81aff 100%);
+
+  background: -webkit-linear-gradient(30deg, #42caff 0%, #e81aff 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
+}
+.yellow {
+  background-color: #fca311 !important;
+  font-size: 23px !important;
+  color: #fff;
+}
+.yellow:active {
+  background-color: #fec05d !important;
+}
+.gray {
+  background-color: #cfcdcd !important;
+  color: #000000 !important;
+}
+.gray:active {
+  background-color: #aaa8a8 !important;
+}
+#button:active {
+  background-color: #4d4c4c;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="calculator">
+        <h1>Welcome to Calculator</h1>
+
+        <input type="text" id="input" autofocus/>
+        <div class="row">
+          <div id="button" class="gray">AC</div>
+          <div id="button" class="gray changer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 7h6M7 4v6m13 8h-6m-9 1L19 5"
+              />
+            </svg>
+          </div>
+          <div id="button" class="gray">%</div>
+          <div id="button" class="yellow">
+              /
+            </svg>
+          </div>
+        </div>
+        <div class="row">
+          <div id="button">7</div>
+          <div id="button">8</div>
+          <div id="button">9</div>
+          <div id="button" class="yellow" >*</div>
+        </div>
+        <div class="row">
+          <div id="button">4</div>
+          <div id="button">5</div>
+          <div id="button">6</div>
+          <div id="button" class="yellow">-</div>
+        </div>
+        <div class="row">
+          <div id="button">1</div>
+          <div id="button">2</div>
+          <div id="button">3</div>
+          <div id="button" class="yellow">+</div>
+        </div>
+        <div class="row">
+          <div id="button">00</div>
+          <div id="button">0</div>
+          <div id="button">.</div>
+          <div id="button" class="yellow">=</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
